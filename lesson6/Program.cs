@@ -12,12 +12,12 @@ namespace lesson6
         {
             int imagesInRow = 3;
             int imagesTotal = 52;
-            int fullRows;
+            int fullRowsWithImages;
             int remainderOfImages;
 
-            fullRows = imagesTotal / imagesInRow;
+            fullRowsWithImages = imagesTotal / imagesInRow;
             remainderOfImages = imagesTotal % imagesInRow;
-            Console.WriteLine($"Полностью заполненных рядов картинками - {fullRows};\nСверх меры останется - {remainderOfImages}");
+            Console.WriteLine($"Полностью заполненных рядов картинками - {fullRowsWithImages};\nСверх меры останется - {remainderOfImages}");
         }
     }
 }
